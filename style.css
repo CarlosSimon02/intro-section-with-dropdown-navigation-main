@@ -1,0 +1,52 @@
+:root {
+    --epilogue: 'Epilogue', sans-serif;
+
+    --breakpoint-mobile: 375px;
+    --breakpoint-tableet: 500px;
+    --breakpoint-desktop: 1000px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--epilogue);
+
+}
+
+.header {
+    display: flex;
+    padding: calc(16px + (40 - 16) * ((100vw - 375px) / (1440 - 375)))
+}
+
+li, svg {
+    display: block;
+}
+
+.header__menu-icon {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav{
+    display: none;
+}
+
+.main {
+    display: flex;
+}
+
