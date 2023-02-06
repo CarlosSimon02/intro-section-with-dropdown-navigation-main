@@ -313,7 +313,6 @@ svg {
         content: url("./images/image-hero-desktop.png");
         height: 100%;
         width: auto;
-        flex: 1;
     }
 
     .main__content {
@@ -322,7 +321,6 @@ svg {
         justify-content: flex-end;
         text-align: left;
         height: auto;
-        flex: 1;
     }
 
     .main__content__desc {
